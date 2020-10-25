@@ -26,7 +26,6 @@ public class UserDetail implements UserDetailsService {
                 true, true, true, true, getAuthorities());
     }
 
-
     private Collection<? extends GrantedAuthority> getAuthorities(){
         return Collections.singletonList(new SimpleGrantedAuthority(ROLE_USER));
     }
