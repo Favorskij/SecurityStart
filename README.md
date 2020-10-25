@@ -1,6 +1,6 @@
 # Spring Security
 
-**Примитивный пример использования Spring Security**
+**Базовый пример использования Spring Security**
 
 
 
